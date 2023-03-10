@@ -42,8 +42,8 @@ const InicioStack = createNativeStackNavigator();
 function TelaInicioStack() {
   return (
     <InicioStack.Navigator>
-      <InicioStack.Screen name="Inicio" component={TelaInicio}/>
-      <InicioStack.Screen name="Detalhes" component={TelaDetalhes}/>
+      <InicioStack.Screen name="Inicio" component={TelaInicio} />
+      <InicioStack.Screen name="Detalhes" component={TelaDetalhes} />
     </InicioStack.Navigator>
   );
 }
@@ -53,8 +53,8 @@ const ConfiguracoesStack = createNativeStackNavigator();
 function TelaConfiguracoesStack() {
   return (
     <ConfiguracoesStack.Navigator>
-      <ConfiguracoesStack.Screen name="Configurações" component={TelaConfiguracoes}/>
-      <ConfiguracoesStack.Screen name="Detalhes" component={TelaDetalhes}/>
+      <ConfiguracoesStack.Screen name="Configurações" component={TelaConfiguracoes} />
+      <ConfiguracoesStack.Screen name="Detalhes" component={TelaDetalhes} />
     </  ConfiguracoesStack.Navigator>
   );
 }

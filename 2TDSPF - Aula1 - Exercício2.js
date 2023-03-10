@@ -43,7 +43,7 @@ const estilos = StyleSheet.create({
     textAlign: "center",
     paddingVertical: 10,
     textShadowColor: "white",
-    textShadowOffset: {wight: 2, height: 3},
+    textShadowOffset: { wight: 2, height: 3 },
     textShadowRadius: 3,
   }
 
@@ -62,11 +62,11 @@ function Principal() {
         placeholder="Raça:"
         placeholderTextColor="darkgray"
       />
-    
-    <View style={estilos.botao}>
-      <Text style={estilos.botaoTexto}>Cadastrar</Text>
+
+      <View style={estilos.botao}>
+        <Text style={estilos.botaoTexto}>Cadastrar</Text>
+      </View>
     </View>
-  </View>
   );
 }
 

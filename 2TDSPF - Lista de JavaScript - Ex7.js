@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Text, View, StyleSheet} from 'react-native';
+import { Text, View, StyleSheet } from 'react-native';
 
 function exibirRetanguloComTexto(faculdade, programa, autor) {
   const largura = 30;
